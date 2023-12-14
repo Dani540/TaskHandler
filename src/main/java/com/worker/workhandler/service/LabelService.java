@@ -11,7 +11,7 @@ public class LabelService {
             label.setOnMouseClicked(mouseEvent -> {
                 // Aqui necesito acceder a la info interna de los elementos (las tareas)
                 // para modificarlas usando otros script de python. (supongo que le mando el mismo json que recibí
-                // y me lo devuelve con los cambios hexos)
+                // y me lo devuelve con los cambios hexos) SEX
                 System.out.println("pixulita");
             });
         });
