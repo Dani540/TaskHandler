@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="480.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.worker.workhandler.controller.MainController">
+    <center>
+        <HBox fx:id="allHBoxContainer">
+            <ScrollPane fx:id="mainLabelContainer">
+                <content>
+                    <VBox fx:id="leftVBox" />
+                </content>
+            </ScrollPane>
+            <VBox fx:id="centerVBox" />
+            <VBox fx:id="rightVBox" />
+        </HBox>
+    </center>
+    <bottom>
+        <HBox fx:id="buttonHBoxContainer">
+            <HBox fx:id="leftButtonsHBox">
+                <Button fx:id="openFileButton" />
+                <Button fx:id="deleteFileButton" />
+            </HBox>
+            <HBox fx:id="rightButtonsHBox">
+                <Button fx:id="deleteLabelButton" />
+            </HBox>
+        </HBox>
+    </bottom>
+
+</BorderPane>

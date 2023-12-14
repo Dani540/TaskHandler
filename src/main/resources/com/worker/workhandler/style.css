@@ -1,0 +1,82 @@
+.root{
+    -fx-background-color: #5C8297;
+    -fx-alignment: center;
+}
+
+#allHBoxContainer{
+    -fx-max-width: 695px;
+    -fx-max-height: 377px;
+    -fx-spacing: 30px;
+}
+
+#mainLabelContainer{
+    -fx-min-width: 168px;
+    -fx-min-height: 377px;
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport,
+.scroll-pane .pane,
+.scroll-pane > .viewport,
+.scroll-pane .scroll-pane,
+.scroll-pane .scroll-pane > .viewport,
+.scroll-pane .scroll-bar,
+.scroll-pane .corner{
+    -fx-background-color: transparent;
+}
+
+.label{
+    -fx-min-width: 168px;
+}
+
+
+#centerVBox,
+#rightVBox{
+    -fx-min-width: 229px;
+    -fx-min-height: 105px;
+}
+
+#leftVBox,
+#centerVBox,
+#rightVBox{
+    -fx-spacing: 20px;
+}
+
+.button{
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+
+#buttonHBoxContainer{
+    -fx-alignment: center;
+    -fx-min-width: 695px;
+    -fx-min-height: 40px;
+    -fx-padding: 0 0 5 0;
+}
+
+#rightButtonsHBox{
+    -fx-alignment: center-right;
+}
+
+#leftButtonsHBox{
+    -fx-alignment: center-left;
+}
+
+#leftButtonsHBox,
+#rightButtonsHBox{
+    -fx-min-width: 320px;
+    -fx-spacing: 20px;
+
+}
+
+
+.label{
+    -fx-background-color: white;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+
+}
